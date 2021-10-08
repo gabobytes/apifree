@@ -33,6 +33,8 @@ const Paises = () => {
 
         <h3>Seleccione País</h3>
 
+        <p>Despliega el registro diario de casos activos, recuperados y fallecidos desde Enero de 2020 hasta la fecha.</p>
+
         <ul>
         {  !todos ? 'Cargando...' :
            todos.map( (todo, index)=>{

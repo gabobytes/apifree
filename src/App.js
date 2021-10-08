@@ -15,12 +15,16 @@ function App() {
   <Router>
     <div className="App" class="container">
 
+      <div className="btn-group">
+        <Link to="/" className="btn btn-dark">Home</Link>
+      </div>
+
     <Switch>
       <Route path="/" exact>
         <Paises/>
       </Route>
 
-      <Route path="/Pais/">
+      <Route path="/Pais/:pais">
         <Pais/>
       </Route>      
     </Switch>
