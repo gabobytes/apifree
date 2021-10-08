@@ -39,7 +39,7 @@ const Pais = () => {
            items.map( (item, index)=>{
             return <li>           
               
-                 Fecha: {item.Date}  Confirmados:{item.Confirmed} Muertes: {item.Deaths} Recuperados: {item.Recovered} Activos: {item.Active}
+                 Fecha: {item.Date}  Confirmados: {item.Confirmed} Muertes: {item.Deaths} Recuperados: {item.Recovered} Activos: {item.Active}
                        
              </li>
           })
